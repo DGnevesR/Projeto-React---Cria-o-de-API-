@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+body{
+  background-color: whitesmoke;
+}
+
+nav{
+  background-color: rgb(23, 27, 49);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+main{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 22;
+}
+main p{
+  text-align: center;
+  width: 50%;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  width: 40%;
+  height: fit-content;
+  margin-top: 30px;
+}
+#shoes{
+  margin-right: 5%;
+}
+td{
+  text-align: center;
+  width: 20%;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: solid 1px;
+  color: #5800a0;
+}
+img{
+  height: 100%;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+#shoes button{
+  color: rgb(212, 212, 212);
+  background-color: #300057;
+  border-width: 1px;
+  height: 30px;
+  width: 90px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: all .3s;
+}
+#shoes button:hover{
+  color: rgb(212, 212, 212);
+  background-color: #5800a0;
+  cursor: pointer;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
